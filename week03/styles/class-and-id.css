@@ -10,8 +10,6 @@ h1 {
     padding-bottom: 0;
 }
 
-
-
 p {
     margin: 0;
 }
@@ -28,7 +26,8 @@ code {
     margin: 20px 0;
     border: 1px solid rgb(0 0 0 / 10%);
     padding: 10px;
-    background-color: #ddd; /* this is shorthand for #dddddd */
+    background-color: #ddd;
+    /* this is shorthand for #dddddd */
 }
 
 .highlight {
@@ -53,6 +52,5 @@ code {
     background: linear-gradient(135deg, #000 0%, #999 100%);
     color: white;
     border-radius: 20px;
-    padding: 20px
+    padding: 20px;
 }
-
