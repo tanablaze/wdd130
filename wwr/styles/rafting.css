@@ -1,0 +1,228 @@
+css
+/* ==============================
+   CSS VARIABLES
+   ============================== */
+
+:root {
+    --primary-color: #055a05;
+    /* forest green */
+    --secondary-color: #f4a261;
+    /* warm sand */
+    --accent1-color: #264653;
+    /* dark slate blue */
+    --accent2-color: #e9c46a;
+    /* light golden yellow */
+    --heading-font: "Times New Roman",
+        "Georgia",
+        serif;
+    --body-font: Arial,
+        Helvetica,
+        sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ==============================
+   BODY
+   ============================== */
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+    background-color: #ffffff;
+}
+
+/* ==============================
+   PAGE WIDTH
+   ============================== */
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+/* ==============================
+   HEADINGS
+   ============================== */
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+/* ==============================
+   GENERAL SPACING
+   ============================== */
+
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
+}
+
+/* ==============================
+   HEADER
+   ============================== */
+
+header {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    align-items: center;
+    padding: 16px;
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+/* ==============================
+   LOGO
+   ============================== */
+
+header img {
+    width: 120px;
+    height: auto;
+}
+
+/* ==============================
+   NAVIGATION
+   ============================== */
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: var(--accent2-color);
+}
+
+/* ==============================
+   HERO SECTION
+   ============================== */
+
+.hero {
+    position: relative;
+    margin-top: 20px;
+}
+
+/* ==============================
+   HERO BACKGROUND IMAGE
+   ============================== */
+
+.hero > img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* ==============================
+   HERO HEADING
+   ============================== */
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: #fff;
+    /* white text – make sure there is enough contrast with the background-color */
+}
+
+/* ==============================
+   HERO ARTICLE
+   ============================== */
+
+.hero article {
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+
+    padding: 15px;
+
+    background-color: rgba(255, 255, 255, 0.88);
+}
+
+/* ==============================
+   ARTICLE IMAGE
+   ============================== */
+
+.hero article img {
+    float: right;
+    width: 125px;
+    height: auto;
+
+    margin: 0 0 10px 15px;
+
+    border: 2px solid var(--primary-color);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* ==============================
+   HISTORY SECTION
+   ============================== */
+
+section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+section p {
+    line-height: 1.6;
+}
+
+/* ==============================
+   FOOTER
+   ============================== */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px;
+
+    border-top: 2px solid var(--secondary-color);
+}
+
+/* ==============================
+   SOCIAL MEDIA
+   ============================== */
+
+.socialmedia {
+    display: flex;
+    align-items: center;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.socialmedia img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}
