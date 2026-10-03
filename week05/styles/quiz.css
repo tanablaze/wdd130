@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #000;
+    background-color: white;
+    padding: 1rem;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #000080;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+form {
+    width: 100%;
+}
+
+fieldset {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 2rem;
+}
+
+.quiz-item {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 0.7rem;
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    border: 1px solid #777;
+    border-radius: 2px;
+}
+
+textarea {
+    min-height: 110px;
+    resize: vertical;
+}
+
+select {
+    height: 3rem;
+}
+
+code {
+    display: block;
+    width: 75%;
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    font-family: "Courier New", monospace;
+    font-size: 1rem;
+}
+
+button {
+    width: 100%;
+    padding: 0.8rem;
+    margin-top: 0.5rem;
+    background-color: #000099;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-family: "Courier New", monospace;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #000066;
+}

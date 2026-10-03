@@ -1,0 +1,72 @@
+<!doctype html>
+
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    ```
+    <title>Poll Form | WDD 130</title>
+
+    <meta name="description"
+      content="A simple poll form created for the WDD 130 HTML Forms learning activity.">
+    <meta name="author" content="Unity Santana Sunday">
+
+    <link rel="stylesheet" href="styles/poll-form.css">
+    ```
+
+</head>
+
+<body>
+    <header>
+        <h1>WDD 130 Poll Form</h1>
+    </header>
+
+    ```
+    <main>
+        <form>
+            <div class="form-item column2">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required>
+            </div>
+
+            <div class="form-item column2">
+                <label for="useremail">Email Address:</label>
+                <input type="email" id="useremail" name="useremail" required>
+            </div>
+
+            <div class="form-item column1">
+                <label for="browser">What is your favorite browser?</label>
+                <select name="browser" id="browser">
+                    <option value="chrome">Chrome</option>
+                    <option value="safari">Safari</option>
+                    <option value="edge">Edge</option>
+                    <option value="brave">Brave</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <div class="form-item column1">
+                <label for="pet">Do you have a household pet?</label>
+                <input type="checkbox" id="pet" name="pet">
+            </div>
+
+            <div class="form-item column2">
+                <label for="feedback">List the places you have lived.</label>
+                <textarea id="feedback" name="feedback" rows="5"
+                  placeholder="Enter the places where you have lived."></textarea>
+            </div>
+
+            <button type="submit">Submit Poll</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Unity Santana Sunday | WDD 130</p>
+    </footer>
+    ```
+
+</body>
+
+</html>
